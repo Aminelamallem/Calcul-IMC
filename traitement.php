@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <link rel="stylesheet" href="style.css">
 
 
@@ -17,37 +13,6 @@
 
 ?>
 <?php
-// $resultat=$poids/($taille*$taille)*10000;
-
-
-
-// if($resultat <=18.5){
-//     echo "votre poids et de types maigreur ponderal";
-// }
-
-// else if($resultat >=18.5 &&  $resultat <=25){
-//     echo "votre poids et de types normal ";
-// }
-// else if($resultat >=25 &&  $resultat <=30){
-//     echo "votre poids et de types Surpoid ";
-// }
-
-// else if($resultat >=30 &&  $resultat <=35){
-//     echo "votre poids et de types Obésité moderer ";
-// }
-
-// else if($resultat >=35 &&  $resultat <=35){
-//     echo "votre poids et de types Obésité severe ";
-// }
-
-// else if($resultat >=40){
-//     echo "votre poids et de types Obésité morbite ";
-// }
-
-?>
-
-<?php
-
 $imc =($poids / ($taille * $taille) * 10000) ;
 
     $typeImc = "";
@@ -64,7 +29,7 @@ $imc =($poids / ($taille * $taille) * 10000) ;
     }else{
         $typeImc =    "Obésité morbide ou massive";
     }
-    ?>
+        ?>
 
 
 
