@@ -1,0 +1,75 @@
+ body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/04/05/04/44/background-2203989_1280.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+
+.button{
+    width: 30vh;
+    height: 5vh;
+    background-color: brown;
+    color: aliceblue;
+    border-radius: 20px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow:  1px  1px  1px  1px white;
+
+}
+label{
+    color: aliceblue;
+    padding-right: 15px;
+    font-size: large;
+}
+
+
+input{
+    width: 30vh;
+    height: 5vh;
+    border-radius: 20px;
+    border: solid black;
+   
+}
+form{
+    padding: 100px;
+    background-color: rgb(8, 2, 2);
+    border-radius: 20px;
+  
+ 
+}
+input::placeholder{
+    text-align: center;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.paragraph{
+    font-size: large;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 100px;
+}
+h1{
+    color: brown;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    border-radius: 20px;
+    text-shadow: 5px 0px 5px  rgb(19, 19, 29) ;
+    text-align: center;
+}
+h2{
+    color: rgb(113, 1, 1);
+    padding: 15px;
+    background-color: antiquewhite;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
